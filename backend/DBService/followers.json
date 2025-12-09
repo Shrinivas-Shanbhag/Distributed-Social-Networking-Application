@@ -1,0 +1,10 @@
+{
+  "aa" : [ "other" ],
+  "a" : [ "1", "c", "d" ],
+  "1" : [ "a", "other", "c", "d", "shrinivas" ],
+  "other" : [ "1", "a", "c", "d", "shrinivas" ],
+  "c" : [ "1", "a", "d" ],
+  "d" : [ "1", "a", "other", "c", "shrinivas" ],
+  "shrinivas" : [ "a", "1", "other", "c", "d" ],
+  "aaa" : [ ]
+}

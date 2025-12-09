@@ -1,0 +1,14 @@
+{
+  "pair1" : {
+    "pairId" : "pair1",
+    "master" : "http://localhost:9090",
+    "slave" : "http://localhost:9091",
+    "activeMaster" : null
+  },
+  "pair2" : {
+    "pairId" : "pair2",
+    "master" : "http://localhost:9190",
+    "slave" : "http://localhost:9191",
+    "activeMaster" : null
+  }
+}

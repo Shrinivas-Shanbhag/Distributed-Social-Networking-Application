@@ -1,0 +1,210 @@
+{
+  "a" : {
+    "1" : [ {
+      "from" : "a",
+      "to" : "1",
+      "text" : "hi",
+      "timestamp" : 1763936992780
+    } ],
+    "d" : [ {
+      "from" : "d",
+      "to" : "a",
+      "text" : "hey how are you",
+      "timestamp" : 1763925972890
+    }, {
+      "from" : "a",
+      "to" : "d",
+      "text" : "good",
+      "timestamp" : 1763925999097
+    }, {
+      "from" : "a",
+      "to" : "d",
+      "text" : "yo",
+      "timestamp" : 1763926060553
+    }, {
+      "from" : "d",
+      "to" : "a",
+      "text" : "hi bro",
+      "timestamp" : 1763936322317
+    }, {
+      "from" : "d",
+      "to" : "a",
+      "text" : "damn",
+      "timestamp" : 1763936372522
+    }, {
+      "from" : "d",
+      "to" : "a",
+      "text" : "hi",
+      "timestamp" : 1763936758653
+    }, {
+      "from" : "a",
+      "to" : "d",
+      "text" : "hihi",
+      "timestamp" : 1763937010435
+    } ],
+    "shrinivas" : [ {
+      "from" : "a",
+      "to" : "shrinivas",
+      "text" : "hi",
+      "timestamp" : 1763927787895
+    }, {
+      "from" : "shrinivas",
+      "to" : "a",
+      "text" : "how are you",
+      "timestamp" : 1763927793331
+    } ],
+    "c" : [ {
+      "from" : "a",
+      "to" : "c",
+      "text" : "hi",
+      "timestamp" : 1765236353530
+    }, {
+      "from" : "c",
+      "to" : "a",
+      "text" : "hi how r u",
+      "timestamp" : 1765236373867
+    }, {
+      "from" : "a",
+      "to" : "c",
+      "text" : "gg",
+      "timestamp" : 1765236383932
+    }, {
+      "from" : "c",
+      "to" : "a",
+      "text" : "yo bro",
+      "timestamp" : 1765237891780
+    }, {
+      "from" : "a",
+      "to" : "c",
+      "text" : "yeah tell",
+      "timestamp" : 1765237907650
+    }, {
+      "from" : "a",
+      "to" : "c",
+      "text" : "nothing",
+      "timestamp" : 1765237922839
+    }, {
+      "from" : "c",
+      "to" : "a",
+      "text" : "ok",
+      "timestamp" : 1765237929367
+    }, {
+      "from" : "a",
+      "to" : "c",
+      "text" : "okok",
+      "timestamp" : 1765251686108
+    }, {
+      "from" : "c",
+      "to" : "a",
+      "text" : "chill a bit",
+      "timestamp" : 1765251697582
+    } ]
+  },
+  "1" : {
+    "a" : [ {
+      "from" : "a",
+      "to" : "1",
+      "text" : "hi",
+      "timestamp" : 1763936992780
+    } ]
+  },
+  "d" : {
+    "a" : [ {
+      "from" : "d",
+      "to" : "a",
+      "text" : "hey how are you",
+      "timestamp" : 1763925972890
+    }, {
+      "from" : "a",
+      "to" : "d",
+      "text" : "good",
+      "timestamp" : 1763925999097
+    }, {
+      "from" : "a",
+      "to" : "d",
+      "text" : "yo",
+      "timestamp" : 1763926060553
+    }, {
+      "from" : "d",
+      "to" : "a",
+      "text" : "hi bro",
+      "timestamp" : 1763936322317
+    }, {
+      "from" : "d",
+      "to" : "a",
+      "text" : "damn",
+      "timestamp" : 1763936372522
+    }, {
+      "from" : "d",
+      "to" : "a",
+      "text" : "hi",
+      "timestamp" : 1763936758653
+    }, {
+      "from" : "a",
+      "to" : "d",
+      "text" : "hihi",
+      "timestamp" : 1763937010435
+    } ]
+  },
+  "shrinivas" : {
+    "a" : [ {
+      "from" : "a",
+      "to" : "shrinivas",
+      "text" : "hi",
+      "timestamp" : 1763927787895
+    }, {
+      "from" : "shrinivas",
+      "to" : "a",
+      "text" : "how are you",
+      "timestamp" : 1763927793331
+    } ]
+  },
+  "c" : {
+    "a" : [ {
+      "from" : "a",
+      "to" : "c",
+      "text" : "hi",
+      "timestamp" : 1765236353530
+    }, {
+      "from" : "c",
+      "to" : "a",
+      "text" : "hi how r u",
+      "timestamp" : 1765236373867
+    }, {
+      "from" : "a",
+      "to" : "c",
+      "text" : "gg",
+      "timestamp" : 1765236383932
+    }, {
+      "from" : "c",
+      "to" : "a",
+      "text" : "yo bro",
+      "timestamp" : 1765237891780
+    }, {
+      "from" : "a",
+      "to" : "c",
+      "text" : "yeah tell",
+      "timestamp" : 1765237907650
+    }, {
+      "from" : "a",
+      "to" : "c",
+      "text" : "nothing",
+      "timestamp" : 1765237922839
+    }, {
+      "from" : "c",
+      "to" : "a",
+      "text" : "ok",
+      "timestamp" : 1765237929367
+    }, {
+      "from" : "a",
+      "to" : "c",
+      "text" : "okok",
+      "timestamp" : 1765251686108
+    }, {
+      "from" : "c",
+      "to" : "a",
+      "text" : "chill a bit",
+      "timestamp" : 1765251697582
+    } ]
+  }
+}

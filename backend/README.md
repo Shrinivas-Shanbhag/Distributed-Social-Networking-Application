@@ -1,0 +1,1 @@
+This project consists of three microservices that provide authentication, chat, and database services.
