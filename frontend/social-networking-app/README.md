@@ -1,69 +1,52 @@
-# React + TypeScript + Vite
+# Distributed Social Network Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **web client** for the Distributed Social Networking Application, enabling real-time interaction with posts and users.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## Expanding the ESLint configuration
+This frontend provides a **interface** where users can:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Register and log in
+- Follow or unfollow other users
+- View posts from followed accounts in real-time
+- Interact with a live timeline via WebSockets
+- Chat with other users
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+It communicates with the backend services (Auth, Chat, DB) to provide a seamless and interactive experience.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Features
+
+- **User Authentication**: Login and registration with username/password
+- **Follow/Unfollow Users**: Connect or disconnect with other users
+- **Real-Time Timeline**: Live updates of posts from followed users
+- **Responsive UI**: Works across desktop and mobile devices
+- **WebSocket Integration**: Instant notifications for posts and chats
+
+---
+
+## Technology Stack
+
+- **Frontend**: TypeScript, HTML, CSS
+- **Communication**: WebSockets for real-time updates, REST for standard requests
+
+---
+
+## Run Locally
+
+1. Install dependencies:
+```bash
+npm install
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+2. Start all the backend services
+3. Start the development server:
+```
+npm run dev
+```
+4. Open in browser:
+```
+http://localhost:5173
 ```
