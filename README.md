@@ -41,3 +41,25 @@ The system allows users to connect, share posts, and receive updates instantly. 
 - **Scalability** to support growing user load efficiently.
 - **Resilience** with minimal downtime and reliable failover handling.
 - **Low-Latency Performance** using optimized Java/Spring Boot backend and efficient protocols.
+
+---
+## How to Run
+
+You can run the system manually on your local machine or deploy it using containerized workflows.
+
+### **Option 1: Manual Local Run**
+Run each component in the following order:
+
+1. **Start the Auth Server**
+2. **Start the Database Service**
+3. **Start the Chat Servers**
+    - Launch them in a **master–slave pair**
+    - Register both servers' IP addresses in the Auth Server
+4. **Start the Frontend Application Server**
+    - This will provide the URL where users can access the web application
+
+➡️ **Detailed run instructions for each component are provided in the individual `README.md` files inside each component’s directory.**
+
+### **Option 2: Deployment via CI/CD & Kubernetes**
+Each component includes its own Dockerfile.  
+You can create a CI/CD pipeline and deploy all components to Kubernetes clusters for automated, scalable deployment.
