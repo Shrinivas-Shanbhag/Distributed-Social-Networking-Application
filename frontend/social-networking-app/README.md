@@ -14,7 +14,7 @@ This frontend provides a **interface** where users can:
 - Interact with a live timeline via WebSockets
 - Chat with other users
 
-It communicates with the backend services (Auth, Chat, DB) to provide a seamless and interactive experience.
+It communicates with the backend services (Auth, Chat) to provide a seamless and interactive experience.
 
 ---
 
