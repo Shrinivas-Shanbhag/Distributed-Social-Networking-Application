@@ -1,4 +1,4 @@
-# Distributed Social Networking App
+# Distributed Social Networking App (LinkStream)
 
 This project is a full-stack, distributed social networking platform. It provides real-time interaction, high availability, and fault-tolerant performance through a master–slave backend architecture and a responsive frontend interface.
 
